@@ -31,7 +31,7 @@ class MenuBuilder():
             # Invoke the class corresponding to the choice
             for menu_item in self.__menu:
                 if choice == self.__menu.index(menu_item) + 1:
-                    menu_item.action()
+                    menu_item.action() #This actually invokes, using the __call__
 
         # Handle ctrl+c
         except KeyboardInterrupt:
