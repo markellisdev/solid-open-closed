@@ -9,3 +9,7 @@ class Deposit(menuaction.MenuAction):
     def __call__(self):
         amount = input("How much? ")
         self.account.add_money(amount)
+
+"""This could invoke call
+d = Deposit()
+d()"""
