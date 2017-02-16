@@ -17,7 +17,7 @@ class Teller():
 
     def build_menu(self):
         """Defines each of the MenuActions that will be used for the Teller"""
-        """Teller is not responsible for building the meny"""
+        """Teller is not responsible for building the menu"""
 
         deposit = MenuItem("Add Money", Deposit(self.account))
         
