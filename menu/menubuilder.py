@@ -1,7 +1,7 @@
 import os
 from .menuitem import MenuItem
 
-
+"""This class is open for anyone to use"""
 class MenuBuilder():
     """Responsible for building a command line menu system from MenuItems"""
 
